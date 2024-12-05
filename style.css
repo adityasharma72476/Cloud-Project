@@ -1,0 +1,96 @@
+/* Basic styling for the body and layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centering the tracker and giving it a box shadow */
+  .tracker {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the header */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styling the form for input fields */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Labels for form elements */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Styling input fields, select dropdown, and buttons */
+  input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button hover effect */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Activity log section */
+  #logs {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styling each log entry */
+  .log-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background: #eaf4f4;
+    border-radius: 4px;
+  }
+  
+  .log-entry span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Delete button for each log */
+  .log-entry button {
+    background: #ff4c4c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .log-entry button:hover {
+    background: #cc0000;
+  }
+  
